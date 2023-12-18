@@ -1,0 +1,35 @@
+#heading
+{
+font-size:40px;
+animation-name: animation1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+canvas
+{
+    border: 5px ridge black;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+body
+{
+    background-image: url("background.jpg");
+}
+.btn-warning:hover
+{
+    background-color: cyan;
+}
+@keyframes animation1{
+    0%{
+        box-shadow: 10px 10px 15px black;
+    }
+    50%{
+        box-shadow: -10px 10px 15px rgb(0, 128, 58);
+    }
+    100%{
+        box-shadow: -10px -10px 15px rgb(0, 255, 174);
+    }
+}
